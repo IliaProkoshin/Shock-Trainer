@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Ударный тренажёр</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableWidget" name="table">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1131</width>
+      <height>609</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>180</number>
+    </attribute>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>180</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>50</number>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="Box1">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>668</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Существительные</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box2">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>698</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Прилагательные</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box3">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>728</y>
+      <width>161</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Глаголы</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>668</y>
+      <width>140</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Причастия</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>698</y>
+      <width>140</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Деепричастия</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>728</y>
+      <width>140</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Наречия</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>633</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Части речи:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box8">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>708</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>В базе изначально</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Box7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>678</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавленные пользователем</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>633</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Группа:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>633</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Фильтр:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radio1">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>678</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID в базе</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Group</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="radio2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>708</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Кол-во слогов</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Group</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="radio3">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>678</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Часть речи</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Group</string>
+    </attribute>
+   </widget>
+   <widget class="QRadioButton" name="radio4">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>708</y>
+      <width>111</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Алфавит</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">Group</string>
+    </attribute>
+   </widget>
+   <widget class="QPushButton" name="ok_but">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>638</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_info">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>698</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiLight</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1188</x>
+      <y>741</y>
+      <width>83</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift SemiLight</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>by Ilia Prokoshin</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redactor_but">
+    <property name="geometry">
+     <rect>
+      <x>1155</x>
+      <y>10</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Редактировать</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="train_but">
+    <property name="geometry">
+     <rect>
+      <x>1155</x>
+      <y>60</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Тренажёр</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stat_but">
+    <property name="geometry">
+     <rect>
+      <x>1155</x>
+      <y>678</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Статистика</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="Group"/>
+ </buttongroups>
+</ui>
